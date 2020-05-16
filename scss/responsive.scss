@@ -1,0 +1,52 @@
+@media (max-width: 670px){
+  .container{
+   width: 90%;
+  }
+  .bg-slider{
+    height:340px;
+  }
+  .bg-slider__title{
+    font-size: 24px;
+  }
+.news{
+  flex-direction: column;
+  width: 100%;
+.news1  {
+  width: 100%;
+  img{
+    height: 300px;
+  }
+}
+.news2 {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  .text{
+    width: 100%;
+  }
+}
+}
+
+.answer{
+  text-align:center;
+  .answer-list-items{
+    flex-direction: column;
+    .answer-list-item{
+      width: 100%;
+      margin-bottom: 40px;
+        img{
+          width: 80%;
+          height: 200px;
+        }
+  }
+  }
+}
+
+
+
+footer{
+  ul{
+    width: 80%;
+  }
+}
+}

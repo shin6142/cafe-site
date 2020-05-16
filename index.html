@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>COFFEE　SHOP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/main.min.css">
+    <link rel="stylesheet" href="scss/responsive.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+
+<main>
+
+
+
+<header>
+    <div class="container">
+        <div class="header-logo">
+            <a href="#">
+            <div class="header-logo-icon"><i class="fas fa-mug-hot"></i></div>
+            <div class="header-logo-text"><p>BUT<br>FIRST<br>COFFEE.</p></div>
+            <div class="clear"></div>
+            </a>
+        </div>
+        <div class="header-menubar" id="menu-show">
+          <i class="fas fa-bars"></i>
+        </div>
+      <div class="clear"></div>
+
+      <div class="header-menu-list">
+          <ul>
+          <li><a href="#1"><i class="fas fa-book-open"></i>Menu</a></li>
+          <li><a href="#2"><i class="fas fa-seedling"></i>About</a></li>
+          <li><a href="https://shin6142.github.io/cafesite-pickup/"><i class="fas fa-walking"></i>Pick Up</a></li>
+          <li id="menu-close"><i class="fas fa-window-close"></i></li>
+          </ul>
+      </div>
+        <div class="clear"></div>
+    </div>
+</header>
+
+<div class="top bg-slider">
+    <h1 class="bg-slider__title">BUT FIRST COFFEE</h1>
+</div>
+
+
+
+<div class="section menu" id="1">
+  <div class="container">
+    <div class="heading1"><h1>Menu</h1></div>
+    <div class="wrapper">
+      <div class="heading2"><h2>~What's New~</h2><p>新作情報</p></div>
+      <div class="news">
+
+
+      <div class="news1 slide-wrapper">
+            <!-- <div class="change-btn-wrapper">
+                 <div class="change-btn prev-btn">←</div>
+                 <div class="change-btn next-btn">→</div>
+                 <div class="clear"></div>
+               </div> -->
+            <ul class="slides">
+              <li class="slide active"><img src="img/cafelatte.jpg"></li>
+              <li class="slide"><img  src="img/sandwhiches-vegge&ham.png"></li>
+              <li class="slide"><img src="img/snack-cake-chocolate.jpg"></li>
+            </ul>
+              <div class="index-btn-wrapper">
+                <div class="index-btn">●</div>
+                <div class="index-btn">●</div>
+                <div class="index-btn">●</div>
+              </div>
+          </div>
+
+
+
+          <div class="news2">
+            <ul class = "texts">
+              <li class="text active">
+                <h2>Our New Latte</h2>
+                <p>後味で実感する、カフェのようなミルク感ミルクを注ぎ入れた直後のような豊かな味わいを実現するために、ジョージア独自の「ミルクブースト技術」を新開発。これまでのペットボトル入りコーヒーでは実現できなかった、口の中にやさしく広がる、なめらかなミルクの後味をお楽しみいただけます。</p>
+              </li>
+              <li class="text">
+                <h2>Fresh vegges sandwiches</h2>
+                <p>数種類の新鮮な野菜とハムを使ったサンドイッチ。シャキシャキの食感とオリーブオイルとマヨネーズのシンプルな味付けを楽しめます。</p>
+              </li>
+              <li class="text"><h2>Chocolate Cake</h2><p>チョコレートやココアパウダーを使用したケーキ。奥深い甘さの中にも、ほのかなビター風味が残るスイーツです。</p></li>
+            <a class="pickUp-btn" href="#"><i class="fas fa-walking"></i>Pick Up</a>
+        </div>
+        <div class="clear">
+        </div>
+        </div>
+    </div>
+          <div class="originals-wrapper">
+              <div class="heading2">
+                <h2>Originals</h2>
+                </div>
+                <div class="originals">
+                  <ul id="originals-list">
+                    <li class="originals-list-item">
+                      <h3 class="question">Beverages</h3>
+                    <span>+</span>
+                    <div class="answer">
+                        <div class="answer-list-items">
+                        <div class="answer-list-item"><h3>Blend Coffee (hot&iced)</h3><p>¥300</p><img src="img/menu-coffee.jpg"></div>
+                        <div class="answer-list-item"><h3>Latte (hot&iced)</h3><p>¥300</p><img src="img/menu-latte.jpg"></div>
+                        <div class="answer-list-item"><h3>Cuppcinno (hot)</h3><p>¥300</p><img src="img/menu-cuppcinno.jpg"></div>
+                        <div class="answer-list-item"><h3>Tea (hot&iced)</h3><p>¥300</p><img src="img/menu-tea.jpg"></div>
+                        </div>
+                    </div>
+                  </li>
+                    <li class="originals-list-item">
+                      <h3 class="question">Sandwitches</h3>
+                      <span>+</span>
+                      <div class="answer">
+                        <div class="answer-list-items">
+                          <div class="answer-list-item"><h3>Ham & Vegge</h3><p>¥300</p><img src="img/sandwhiches-vegge&ham.png"></div>
+                          <div class="answer-list-item"><h3>Cheese Sand</h3><p>¥300</p><img src="img/sandwiches-cheese.jpg"></div>
+                          <div class="answer-list-item"><h3>Bagle Sand</h3><p>¥300</p><img src="img/sandwiches-bagle.jpg"></div>
+                          <div class="answer-list-item"><h3>Fruite Sand</h3><p>¥300</p><img src="img/sandwiches-fruite.jpg"></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="originals-list-item">
+                      <h3 class="question">Snacks</h3>
+                      <span>+</span>
+                      <div class="answer">
+                        <div class="answer-list-items">
+                          <div class="answer-list-item"><h3>Hanny Dounut</h3><p>¥300</p><img src="img/snack-dounut.jpg"></div>
+                          <div class="answer-list-item"><h3>Butter Scone</h3><p>¥300</p><img src="img/snack-scone.jpg"></div>
+                          <div class="answer-list-item"><h3>Chocolate Cake</h3><p>¥300</p><img src="img/snack-cake-chocolate.jpg"></div>
+                          <div class="answer-list-item"><h3>Cheese Cake</h3><p>¥300</p><img src="img/snack-cake-cheese.jpg"></div>
+                        </div>
+                        </div>
+                      </li>
+                    </ul>
+                    </div>
+                </div>
+  </div>
+</div>
+
+ <div class="section" id="2">
+   <div class="container">
+     <div class="heading1">
+       <h1>About</h1>
+       </div>
+     <div class="wrapper">
+       <ul class="about">
+       <li class="hours">
+         <i class="fas fa-utensils"></i>
+         <h3>平日 9:00 - 17:00</h3>
+         <h3>土曜 10:00 - 18:00</h3>
+         <h4>日曜、祝日　定休</h4>
+       </li>
+        <li class="contact">
+          <i class="fas fa-home"></i>
+          <h3>〒999-0000<br>
+          愛知県　愛知市　春日井1−1−1</h3>
+          <i class="far fa-envelope"></i>
+          <h3>TELL：012-345-789<h3>
+          <h3>E-mail:butfirstcoffee@example.com</h3>
+        </li>
+      </ul>
+    </div>
+ </div>
+</div>
+
+</main>
+
+
+
+<footer>
+  <ul>
+    <li id="top-btn"><h4>TOP</h4></li>
+    <li><h4><a href="#1">MENU</a></h4></li>
+    <li><h4><a href="https://shin6142.github.io/cafesite-pickup/">PICK UP</a></h4></li>
+  </ul>
+</footer>
+
+
+
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
